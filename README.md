@@ -9,7 +9,7 @@ yarn add -D @intelie/eslint-config
 
 ### Install the peer dependencies
 ```bash
-npx install-peerdeps --dev -o --yarn @intelie/eslint-config
+npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
 ```
 
 
