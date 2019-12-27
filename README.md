@@ -1,9 +1,10 @@
 # Intelie [ESLint](http://eslint.org/) config
 
 
-### Install the package
+### Install the needed packages
 ```bash
 yarn install -D @intelie/eslint-config
+yarn add -D @intelie/prettier-config
 ```
 
 
@@ -17,6 +18,7 @@ npx install-peerdeps --dev -o --yarn @intelie/eslint-config
 ### On your `package.json`:
 
 ```json
+    "prettier": "@intelie/prettier-config",
     "eslintConfig": {
         "extends": "@intelie"
     },
