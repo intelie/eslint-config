@@ -3,7 +3,7 @@
 
 ### Install the package
 ```bash
-yarn install -D @intelie/eslint-config
+yarn add -D @intelie/eslint-config
 ```
 
 
