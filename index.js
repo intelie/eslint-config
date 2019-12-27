@@ -7,6 +7,8 @@ module.exports = {
         "standard"
     ],
     "extends": [
+        "standard",
+        "plugin:flowtype/recommended",
         "plugin:react/recommended",
         "plugin:jest/recommended",
         "plugin:prettier/recommended",
