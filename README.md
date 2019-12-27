@@ -1,10 +1,9 @@
 # Intelie [ESLint](http://eslint.org/) config
 
 
-### Install the needed packages
+### Install the package
 ```bash
 yarn install -D @intelie/eslint-config
-yarn add -D @intelie/prettier-config
 ```
 
 
