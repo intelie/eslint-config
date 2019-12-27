@@ -23,4 +23,4 @@ npx install-peerdeps --dev -o --yarn @intelie/eslint-config
     },
 ```
 
-Open your preferred code editor, install an ESLint extension and you're good to go, no more arguing about code formatting and styles! 😊
+Open your preferred code editor, install an ESLint extension and you're good to go, no more discussions about code formatting and styles! 😊
