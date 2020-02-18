@@ -6,6 +6,14 @@ module.exports = {
         "react-hooks",
         "standard"
     ],
+    "options": {
+        "extensions": [
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact"
+        ]
+    },
     "extends": [
         "standard",
         "plugin:flowtype/recommended",
@@ -26,6 +34,13 @@ module.exports = {
             "jsx": true
         }
     },
+
+    "validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
     "parser": "babel-eslint",
     "rules": {
         "no-return-assign": "off",
