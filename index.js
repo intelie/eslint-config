@@ -1,13 +1,17 @@
 module.exports = {
+    "parser": "@typescript-eslint/parser",
     "plugins": [
         "react",
         "flowtype",
+        "@typescript-eslint",
         "jest",
         "react-hooks",
-        "standard"
+        "standard",
     ],
     "extends": [
         "standard",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:flowtype/recommended",
         "plugin:react/recommended",
         "plugin:jest/recommended",
@@ -20,13 +24,6 @@ module.exports = {
         "browser": true,
         "jest": true
     },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "classes": true,
-            "jsx": true
-        }
-    },
-    "parser": "babel-eslint",
     "rules": {
         "no-return-assign": "off",
         "next-line space-infix-ops": "off",

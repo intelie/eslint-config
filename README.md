@@ -23,4 +23,19 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
     },
 ```
 
-Open your preferred code editor, install an ESLint extension and you're good to go, no more discussions about code formatting and styles! 😊
+
+### Editor notes:
+
+#### VSCode
+
+Make sure you _javascript and typescript validation are enabled_ - they are enabled by default.
+
+```json
+"typescript.validate.enable": true
+"javascript.validate.enable": true
+```
+If for some reason you want to turn it off, configure eslint specific validation on your settings:
+
+```json
+"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+```
