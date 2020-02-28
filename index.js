@@ -17,8 +17,9 @@ module.exports = {
         "plugin:jest/recommended",
         "plugin:prettier/recommended",
         "prettier/flowtype",
+        "prettier/@typescript-eslint",
         "prettier/react",
-        "prettier/standard"      
+        "prettier/standard"
     ],
     "env": {
         "browser": true,
