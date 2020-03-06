@@ -24,10 +24,12 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
 ```
 
 
-### Editor notes:
+## Editor notes:
 
-#### VSCode
+### VSCode
 
+
+#### Validation
 Make sure you typescript validation is enabled - it is enabled by default.
 
 ```json
@@ -38,3 +40,7 @@ If for some reason you want to turn it off, configure eslint specific validation
 ```json
 "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 ```
+
+
+#### Working directories
+If your Frontend project is not on the root of the open project you must define the `workingDirectories` setting of the VSCode ESLint plugin to make it work.
