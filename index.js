@@ -27,6 +27,8 @@ module.exports = {
     },
     "rules": {
         "no-return-assign": "off",
+        "flowtype/no-types-missing-file-annotation": "off",
+        "@typescript-eslint/no-use-before-define": "off",
         "next-line space-infix-ops": "off",
         "eqeqeq": [
             "warn",
