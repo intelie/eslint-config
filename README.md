@@ -28,11 +28,10 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
 
 #### VSCode
 
-Make sure you _javascript and typescript validation are enabled_ - they are enabled by default.
+Make sure you typescript validation is enabled - it is enabled by default.
 
 ```json
 "typescript.validate.enable": true
-"javascript.validate.enable": true
 ```
 If for some reason you want to turn it off, configure eslint specific validation on your settings:
 
