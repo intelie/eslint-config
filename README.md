@@ -38,7 +38,7 @@ Make sure you typescript validation is enabled - it is enabled by default.
 If for some reason you want to turn it off, configure eslint specific validation on your settings:
 
 ```json
-"eslint.validate": ["typescript", "typescriptreact"]
+"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 ```
 
 
