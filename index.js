@@ -2,11 +2,12 @@ module.exports = {
     "parser": "@typescript-eslint/parser",
     "plugins": [
         "react",
+        "react-hooks",
         "flowtype",
         "@typescript-eslint",
         "jest",
-        "react-hooks",
-        "standard",
+        "prettier",
+        "standard"
     ],
     "extends": [
         "standard",
