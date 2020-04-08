@@ -43,4 +43,4 @@ If for some reason you want to turn it off, configure eslint specific validation
 
 
 #### Working directories
-If your Frontend project is not on the root of the open project you must define the `workingDirectories` setting of the VSCode ESLint plugin to make it work.
+If your Javascript project is not on the root of the open project you must define the `"eslint.workingDirectories": ["my-js-application"]` setting of the VSCode ESLint plugin to make it work.
