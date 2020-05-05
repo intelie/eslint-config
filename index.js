@@ -45,6 +45,17 @@ module.exports = {
         "newline-before-return": "warn",
         "prettier/prettier": "warn"
     },
+    "overrides": [
+        {
+            // enable the rule specifically for TypeScript files
+            "files": ["*.ts", "*.tsx"],
+            "rules": {
+                "@typescript-eslint/explicit-function-return-type": ["warn", {
+                    "allowExpressions": true
+                }]
+            }
+        }
+    ],
     "globals": {
         "jQuery": true,
         "$": true,
