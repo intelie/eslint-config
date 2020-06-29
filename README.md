@@ -24,11 +24,14 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
 ```
 
 
-### If you need to make custom changes create a `.eslintrc` file in your project and add the new configuration there after extending the plugin:
+### If you need to make custom changes, extend this configuration:
 
 ```json
  "extends": "@intelie/eslint-config",
- ..."your other rules"
+  "rules": {
+       ..."your other rules"
+      }
+ 
 ```
 
 ## Editor notes:
