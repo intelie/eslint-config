@@ -24,6 +24,16 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
 ```
 
 
+### If you need to make custom changes, extend this configuration:
+
+```json
+ "extends": "@intelie/eslint-config",
+  "rules": {
+       ..."your other rules"
+      }
+ 
+```
+
 ## Editor notes:
 
 ### VSCode
