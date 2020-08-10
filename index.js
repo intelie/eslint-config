@@ -51,7 +51,16 @@ module.exports = {
             "rules": {
                 "@typescript-eslint/explicit-function-return-type": ["warn", {
                     "allowExpressions": true
-                }]
+                }],
+                'no-unused-expressions': 'off',
+                '@typescript-eslint/no-unused-expressions': [
+                  'error',
+                  {
+                    allowShortCircuit: true,
+                    allowTernary: true,
+                    allowTaggedTemplates: true,
+                  }
+                ]
             }
         }
     ],
