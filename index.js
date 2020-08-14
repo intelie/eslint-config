@@ -42,13 +42,15 @@ module.exports = {
             "consistent"
         ],
         "newline-before-return": "warn",
-        "prettier/prettier": "warn"
+        "prettier/prettier": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
     },
     "overrides": [
         {
             // enable the rule specifically for TypeScript files
             "files": ["*.ts", "*.tsx"],
             "rules": {
+                "@typescript-eslint/explicit-module-boundary-types": ["error"],
                 "@typescript-eslint/explicit-function-return-type": ["warn", {
                     "allowExpressions": true
                 }],
