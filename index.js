@@ -3,7 +3,6 @@ module.exports = {
     "plugins": [
         "react",
         "react-hooks",
-        "flowtype",
         "@typescript-eslint",
         "jest",
         "prettier",
@@ -12,11 +11,9 @@ module.exports = {
     "extends": [
         "standard",
         "plugin:@typescript-eslint/recommended",
-        "plugin:flowtype/recommended",
         "plugin:react/recommended",
         "plugin:jest/recommended",
         "plugin:prettier/recommended",
-        "prettier/flowtype",
         "prettier/@typescript-eslint",
         "prettier/react",
         "prettier/standard"
@@ -27,7 +24,6 @@ module.exports = {
     },
     "rules": {
         "no-return-assign": "off",
-        "flowtype/no-types-missing-file-annotation": "off",
         "@typescript-eslint/no-use-before-define": "off",
         "next-line space-infix-ops": "off",
         "eqeqeq": [
