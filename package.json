@@ -1,6 +1,6 @@
 {
   "name": "@intelie/eslint-config",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "description": "Intelie's eslint config",
   "main": "index.js",
   "repository": {
