@@ -109,10 +109,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@intelie/prettier-config@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@intelie/prettier-config/-/prettier-config-2.0.1.tgz#28dfbee95c9d1cfb2dd57f18e656ec0fdf3103b9"
-  integrity sha512-CjjMKuIEv7sdUqbhb9Ibr7wMeUMO50rU22ANx99YtgChlBuVI3nd9xaipsq7mVvCG9wBRCX7XI0QhUOhUN7oYw==
+"@intelie/prettier-config@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@intelie/prettier-config/-/prettier-config-2.1.0.tgz#b354584293bd09392f51a00e21e2a103d6fef04a"
+  integrity sha512-RVqoreXK7ATxnvf1EGKNrpg9OvXIm4LGTa3gXml+tv+WHGV9OwAVFna4pFY7I7PUR62bPHF7lxqy4rGTxfgc2g==
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
