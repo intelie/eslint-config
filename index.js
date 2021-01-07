@@ -62,6 +62,11 @@ module.exports = {
             }
         }
     ],
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    },
     "globals": {
         "jQuery": true,
         "$": true,
