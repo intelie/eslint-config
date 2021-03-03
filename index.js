@@ -52,19 +52,21 @@ module.exports = {
                 }],
                 'no-unused-expressions': 'off',
                 '@typescript-eslint/no-unused-expressions': [
-                  'error',
-                  {
-                    allowShortCircuit: true,
-                    allowTernary: true,
-                    allowTaggedTemplates: true,
-                  }
-                ]
+                    'error',
+                    {
+                        allowShortCircuit: true,
+                        allowTernary: true,
+                        allowTaggedTemplates: true,
+                    }
+                ],
+                "no-use-before-define": "off",
+                "@typescript-eslint/no-use-before-define": ["warn", { "functions": false, "classes": false, "variables": false }]
             }
         }
     ],
     "settings": {
         "react": {
-          "version": "detect"
+            "version": "detect"
         }
     },
     "globals": {
