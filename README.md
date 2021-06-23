@@ -34,7 +34,7 @@ npx install-peerdeps@2.0.1 --dev -o --yarn @intelie/eslint-config
  
 ```
 
-## IDEA & Code Editor notes:
+## IDE & Code Editor notes:
 
 ### IntelliJ
 Under `Languages & Frameworks > Javascript > Code Quality Tools > ESLint`:
