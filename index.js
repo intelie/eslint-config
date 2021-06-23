@@ -25,7 +25,6 @@ module.exports = {
     "rules": {
         "no-return-assign": "off",
         "@typescript-eslint/no-use-before-define": "off",
-        "next-line space-infix-ops": "off",
         "eqeqeq": [
             "warn",
             "smart"
@@ -39,6 +38,7 @@ module.exports = {
         ],
         "newline-before-return": "warn",
         "prettier/prettier": "warn",
+        'no-unused-expressions': 'off',
         "@typescript-eslint/explicit-module-boundary-types": "off"
     },
     "overrides": [
@@ -51,7 +51,6 @@ module.exports = {
                 "@typescript-eslint/explicit-function-return-type": ["warn", {
                     "allowExpressions": true
                 }],
-                'no-unused-expressions': 'off',
                 '@typescript-eslint/no-unused-expressions': [
                     'error',
                     {
@@ -78,3 +77,5 @@ module.exports = {
         "context": true
     }
 }
+
+
