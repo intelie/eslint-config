@@ -46,6 +46,7 @@ module.exports = {
             // enable the rule specifically for TypeScript files
             "files": ["*.ts", "*.tsx"],
             "rules": {
+                "react/prop-types": "off",
                 "@typescript-eslint/explicit-module-boundary-types": ["error"],
                 "@typescript-eslint/explicit-function-return-type": ["warn", {
                     "allowExpressions": true
