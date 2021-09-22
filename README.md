@@ -54,4 +54,4 @@ Under `Languages & Frameworks > Javascript > Code Quality Tools > ESLint`:
 
 **Working directories**
 
-    If your Javascript project is not on the root of the open project you must define the `"eslint.workingDirectories": ["my-root-folder"]` setting of the VSCode ESLint plugin to make it work.
+If your Javascript project is not on the root of the open project you must define the `"eslint.workingDirectories": ["my-root-folder"]` setting of the VSCode ESLint plugin to make it work.
