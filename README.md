@@ -44,7 +44,14 @@ Under `Languages & Frameworks > Javascript > Code Quality Tools > ESLint`:
 
 ### VSCode
 
-#### Working directories
-Under `Eslint: Working directories`:
+#### ESLint extension
 
-If your Javascript project is not on the root of the open project you must define the `"eslint.workingDirectories": ["my-root-folder"]` setting of the VSCode ESLint plugin to make it work.
+1. Install ESLint extension.
+2. Attach a keyboard shortcut to `ESLint fix all auto fixable Problems` like `{control + shift + i}`
+3. Use that shortcut before saving the file. 
+
+### Troubleshooting
+
+**Working directories**
+
+    If your Javascript project is not on the root of the open project you must define the `"eslint.workingDirectories": ["my-root-folder"]` setting of the VSCode ESLint plugin to make it work.
